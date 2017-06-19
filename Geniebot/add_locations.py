@@ -1,6 +1,6 @@
 import googlemaps
 import decimal, time
-gmaps = googlemaps.Client(key='AIzaSyA4glo9I2hBgJEKee_GritAwCr8fuvC4hs')
+gmaps = googlemaps.Client(key='')
 from .models import *
 
 def store_locations():

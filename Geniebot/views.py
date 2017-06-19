@@ -10,13 +10,13 @@ from django.http.response import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 from .utils import *
-ACCESS_TOKEN = 'EAAF47rOwYZC4BABZBK1cv2TXKFY9Gtng0Knoe4LbIOaozQk8qEl4zFx51bt1SqLZAZCl55oLWtY0oqQfbzhh2JbEajtZADfZAAx3fJkbiGB2xzrcjatjTvJS77j6ov1aAlvrA9ACaIj5E0HSn0LeRGdF2ennDPup5zScuwd0puJQZDZD'
+ACCESS_TOKEN = ''
 Post_Message_Url = 'https://graph.facebook.com/v2.6/me/messages?access_token='+ACCESS_TOKEN
 api_ai_url = 'https://api.api.ai/api/query/'
 query_data = {}
 query_data['v'] = '20150910'
 query_data['lang'] = 'en'
-headers = {'Authorization': 'Bearer fd71602f6bb14bd39e271a2d8072b59a'}
+headers = {'Authorization': 'Bearer '}
 paging_context = {}
  
 def add_fb_menu():
